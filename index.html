@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRTUAL MCDONALD'S</title>
+    <style>
+        #display{
+         margin: auto;
+         margin-top: 20px;
+         text-align: center;
+         /* border: 1px solid black; */
+         width: 30%;
+         height: 200px;
+
+        }
+        img{
+            width: 100%;
+         height: 200px;
+        }
+        #orderid{
+            /* border: 1px solid red; */
+            font-size: 30px;
+            margin-left: 800px;
+        }
+     #order{
+         font-size: 30px;
+         width: 150px;
+     }
+     button{
+         font-size: 20px;
+         width: 150px;
+     }
+
+    </style>
+</head>
+<body>
+
+    <select name="" id="order">
+        <option value="pasta">Pasta</option>
+        <option value="biryani">Biryani</option>
+        <option value="pulao">Pulao</option>
+        
+    </select>
+    <button onclick="orderFood()">Order Food</button>
+<div id="orderid"></div>
+    <div id="display"></div>
+</body>
+</html>
+<script src="index.js"></script>
