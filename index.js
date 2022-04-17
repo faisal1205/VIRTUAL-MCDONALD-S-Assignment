@@ -6,7 +6,7 @@ function orderFood()
     let orderid = document.querySelector("#orderid")
 let wait =  document.getElementById("wait")
 
-    let round= document.createElement("img")
+    let round= document.createElement("img")  
 
     round.src = "https://c.tenor.com/FBeNVFjn-EkAAAAC/ben-redblock-loading.gif"
     
